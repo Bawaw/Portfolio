@@ -14,7 +14,7 @@ body {
 }
 
 .text-primary {
-    color: #fed136;
+    color: rgba(200,200,200,6.6);
 }
 
 p {
@@ -193,7 +193,6 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .navbar-toggle {
     border-color: #dfdfdf;
-    background-color: #dfdfdf;
 }
 
 .navbar-default .navbar-toggle .icon-bar {
@@ -266,7 +265,7 @@ header {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
-    background-image: url(../img/header-bg.jpg);
+    background-image: url(../img/industry-486877_1280.jpg);
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
@@ -332,6 +331,30 @@ section h2.section-heading {
     font-size: 40px;
 }
 
+.imageRedirect {
+    padding-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 450px;
+}
+
+.imageRedirect .gitHub{
+    float: left;
+ width: 64px;
+ height:64px;
+     background-image: url('../img/portfolio/GitHub-Mark-64px.png');
+}
+
+.imageRedirect .gitHub:hover{
+     background-image: url('../img/portfolio/hoverGit.png');
+}
+
+
+.imageRedirect .text-muted{
+    padding-left: 80px;
+    padding-top: 22px;
+}
+
 section h3.section-subheading {
     margin-bottom: 75px;
     text-transform: none;
@@ -343,7 +366,8 @@ section h3.section-subheading {
 
 @media(min-width:768px) {
     section {
-        padding: 150px 0;
+        padding-top: 150px;
+        padding-bottom: 450px;
     }
 }
 
@@ -369,7 +393,7 @@ section h3.section-subheading {
     width: 100%;
     height: 100%;
     opacity: 0;
-    background: rgba(254,209,54,.9);
+    background: rgba(21,21,21,0.7);
     -webkit-transition: all ease .5s;
     -moz-transition: all ease .5s;
     transition: all ease .5s;
@@ -495,7 +519,6 @@ section h3.section-subheading {
     border-radius: 100%;
     text-align: center;
     color: #fff;
-    background-color: #fed136;
 }
 
 .timeline>li .timeline-image h4 {
@@ -712,6 +735,10 @@ section#contact:-ms-input-placeholder {
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
     color: #bbb;
+}
+
+.smallArticle {
+    margin-bottom: 100px;
 }
 
 section#contact .text-danger {
